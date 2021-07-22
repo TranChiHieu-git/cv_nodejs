@@ -1,0 +1,20 @@
+extends ../common/head.pug
+
+block content
+    style
+        include index.css
+    script
+        include index.js
+    div(class="parent")
+        block navbar
+            include ./navbar/navbar.pug
+        block slider
+            include ./slider/slider.pug
+        block info
+            include ./info/info.pug
+        block resume
+            include ./resume/resume.pug
+        block portfolio
+            include ./portfolio/portfolio.pug
+        block contact
+            include ./contact/contact.pug

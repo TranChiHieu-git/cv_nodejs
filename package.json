@@ -1,0 +1,20 @@
+{
+  "name": "profile",
+  "version": "0.0.1",
+  "description": "Resume of Tran Chi Hieu. Use nodejs + express + pug + semantic-ui.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tran Chi Hieu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
